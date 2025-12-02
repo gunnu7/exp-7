@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f6ff;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .box {
+            border: 1px solid #999;
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .event-img {
+            width: 200px;
+            height: 120px;
+            margin: 5px;
+            border: 1px solid #555;
+        }
+        .gallery {
+            text-align: center;
+        }
+        .btn {
+            background-color: #0066cc;
+            color: white;
+            padding: 7px 12px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Star Events</h1>
+    <p style="text-align:center;">We manage your special moments!</p>
+
+    <!-- Events -->
+    <div class="box">
+        <h2>Upcoming Events</h2>
+
+        <div class="gallery">
+            <!-- FIXED first image -->
+            <img class="event-img" 
+                 src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=60" 
+                 alt="Event 1">
+
+            <img class="event-img" 
+                 src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=60" 
+                 alt="Event 2">
+
+            <img class="event-img" 
+                 src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=600&q=60" 
+                 alt="Event 3">
+        </div>
+
+        <ul>
+            <li>Corporate Meet – 20 Dec 2025</li>
+            <li>Wedding Expo – 5 Jan 2026</li>
+            <li>Music Fest – 15 Feb 2026</li>
+        </ul>
+    </div>
+
+    <!-- Booking -->
+    <div class="box">
+        <h2>Book an Event</h2>
+        <form>
+            Name: <br>
+            <input type="text"><br><br>
+
+            Email: <br>
+            <input type="email"><br><br>
+
+            Type of Event: <br>
+            <select>
+                <option>Wedding</option>
+                <option>Birthday</option>
+                <option>Corporate Event</option>
+            </select><br><br>
+
+            Date: <br>
+            <input type="date"><br><br>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="box">
+        <h2>Client Testimonials</h2>
+
+        <p>"Amazing decoration and planning!" – Riya</p>
+        <p>"Very professional team." – Global Tech</p>
+        <p>"Best event organizers!" – Meera</p>
+    </div>
+
+</body>
+</html>
